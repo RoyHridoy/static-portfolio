@@ -1,0 +1,68 @@
+[
+    {
+        "id": "1",
+        "project_name": "Project Alpha",
+        "description": "A detailed explanation of Project Alpha, highlighting the objectives, challenges, and solutions implemented.",
+        "short_description": "A brief overview of Project Alpha, focusing on its main features.",
+        "image": "https://example.com/images/project-alpha.png",
+        "category": ["Web Development", "UI/UX Design"],
+        "client_name": "Alpha Corp",
+        "published_date": "2024-08-01",
+        "live_link": "https://www.alpha-project.com"
+    },
+    {
+        "id": "2",
+        "project_name": "Project Beta",
+        "description": "A comprehensive description of Project Beta, detailing the design, development, and deployment processes.",
+        "short_description": "A concise summary of Project Beta, including key takeaways.",
+        "image": "https://example.com/images/project-beta.png",
+        "category": ["Mobile App", "User Experience"],
+        "client_name": "Beta LLC",
+        "published_date": "2024-07-15",
+        "live_link": "https://www.beta-project.com"
+    },
+    {
+        "id": "3",
+        "project_name": "Project Gamma",
+        "description": "An in-depth look at Project Gamma, covering all aspects from initial concept to final launch.",
+        "short_description": "A snapshot of Project Gamma, outlining the primary goals and achievements.",
+        "image": "bg.jpg",
+        "category": ["Software Development", "Cloud Services"],
+        "client_name": "Gamma Solutions",
+        "published_date": "2024-06-20",
+        "live_link": "https://www.gamma-project.com"
+    },
+    {
+        "id": "4",
+        "project_name": "Project Delta",
+        "description": "A detailed analysis of Project Delta, showcasing innovative solutions in AI integration and automation.",
+        "short_description": "A brief overview of Project Delta, focusing on its AI capabilities.",
+        "image": "https://example.com/images/project-delta.png",
+        "category": ["Artificial Intelligence", "Automation"],
+        "client_name": "Delta Technologies",
+        "published_date": "2024-05-30",
+        "live_link": "https://www.delta-project.com"
+    },
+    {
+        "id": "5",
+        "project_name": "Project Epsilon",
+        "description": "An in-depth exploration of Project Epsilon, highlighting its cutting-edge blockchain technology.",
+        "short_description": "A concise summary of Project Epsilon, emphasizing its blockchain framework.",
+        "image": "https://example.com/images/project-epsilon.png",
+        "category": ["Blockchain", "Security"],
+        "client_name": "Epsilon Innovations",
+        "published_date": "2024-04-18",
+        "live_link": "https://www.epsilon-project.com"
+    },
+    {
+        "id": "6",
+        "project_name": "Project Zeta",
+        "description": "A comprehensive look at Project Zeta, covering the development of a scalable e-commerce platform.",
+        "short_description": "A snapshot of Project Zeta, focusing on its e-commerce solutions.",
+        "image": "https://example.com/images/project-zeta.png",
+        "category": ["E-Commerce", "Web Development"],
+        "client_name": "Zeta Retail",
+        "published_date": "2024-03-25",
+        "live_link": "https://www.zeta-project.com"
+    }
+]
