@@ -63,6 +63,11 @@ return [
             'authorization_token' => env('DROPBOX_AUTH_TOKEN'),
         ],
 
+        'portfolio' => [
+            'driver' => 'local',
+            'root' => storage_path('data'),
+            'throw' => false,
+        ]
     ],
 
     /*

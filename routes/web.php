@@ -1,13 +1,10 @@
 <?php
 
+use App\Http\Controllers\ExperienceController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\Storage;
 
-Route::get( '/', function () {
-
-    $img = Storage::disk( 'dropbox' )->url( '1.jpg' );
-
-    return view( 'home', [
-        'img' => $img,
-    ] );
-} );
+Route::get( '/', HomeController::class );
+Route::get( 'experience', ExperienceController::class );
+Route::resource( '/projects', ProjectController::class )->only( ['index', 'show'] );
