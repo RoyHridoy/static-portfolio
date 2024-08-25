@@ -35,8 +35,8 @@
     {{-- Right side --}}
     <section class="w-[85%] ml-[15%]">
         <div
-            class="h-screen bg-cover relative z-10 after:absolute after:w-full after:h-full after:bg-slate-900/80 after:top-0 after:left-0 after:-z-10 bg-[url('https://royhridoy.me/html/royme-preview/assets/img/hero-area/3.jpg')]">
-            <div class="px-[10%] flex flex-col justify-center h-full text-white w-3/5">
+            class="min-h-screen bg-cover relative z-10 after:absolute after:w-full after:h-full after:bg-slate-900/80 after:top-0 after:left-0 after:-z-10 bg-[url('{{ asset('/images/bg.jpg') }}')]">
+            <div {{ $attributes->merge(['class' => 'px-[10%] flex flex-col justify-center min-h-screen text-white w-3/5']) }}>
 
                 {{ $slot }}
 

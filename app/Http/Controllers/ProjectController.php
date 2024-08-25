@@ -22,7 +22,7 @@ class ProjectController extends Controller
         $projectArr = array_filter( $projects, fn( $project ) => $project['id'] === $id );
         $project    = current( $projectArr );
 
-        dd( $project );
+        // dd( $project );
         return view( "projects.show", ['project' => $project] );
     }
 

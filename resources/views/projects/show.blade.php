@@ -1,4 +1,4 @@
 <x-layout>
-    <img src="{{ storage_path() . "/data/".  $project[2]['image'] }}" alt="">
+    <img src="{{ asset("images/{$project['image']}") }}" alt="" class="w-full h-auto">
     Single @dd($project)
 </x-layout>
