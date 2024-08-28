@@ -1,5 +1,5 @@
-<x-layout>
-    <ol class="relative border-s border-slate-400">
+<x-layout class="!w-full lg:!w-4/5 xl:!w-3/5">
+    <ol class="relative border-s border-slate-400 mt-10 md:mt-0">
         @foreach ($experiences as $experience)
         <li class=" @if (!$loop->last) {{ 'mb-10' }} @endif ms-4">
             <div class="absolute w-3 h-3 bg-slate-400 rounded-full mt-1.5 -start-1.5 border border-slate-100">

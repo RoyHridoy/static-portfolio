@@ -1,4 +1,4 @@
-<x-layout>
+<x-layout class="!w-full">
         <div class="flex flex-col justify-center h-full text-white">
             <h4 class="italic font-semibold text-3xl mb-5">{{ $homeContent['greetings'] }} </h4>
             <h2 class="font-bold text-6xl uppercase tracking-widest mb-8">{{ $homeContent['author'] }}</h2>

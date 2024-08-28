@@ -1,8 +1,8 @@
 <x-layout class="!w-full py-28">
-    <div class="grid grid-cols-3 w-full gap-8">
+    <div class="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 w-full gap-8">
 
         @foreach ($projects as $project)
-        <div class="bg-slate-300 rounded-sm overflow-hidden shadow-2xl group">
+        <div class="bg-slate-700 rounded-sm overflow-hidden shadow-2xl group">
             <div class="relative">
                 <div class="h-80 relative bg-cover bg-center after:absolute after:bg-slate-900/70 group-hover:after:w-full after:duration-300 transition-all after:w-0 duration-300 z-10 after:h-full bg-[url('{{ asset("/images/{$project['image']}") }}')]"></div>
                 <a href="{{ route('projects.show', ['project' => $project['id']]) }}" class="absolute bg-white/90 text-slate-900 px-10 py-3 top-1/2 left-0 z-20 transition-all duration-300 group-hover:-translate-x-1/2 group-hover:left-1/2 -translate-x-full -translate-y-1/2 capitalize font-medium shadow-lg rounded-sm">See details</a>
